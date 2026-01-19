@@ -1,1 +1,29 @@
 
+# Task 02 – Missing Value Analysis & Data Cleaning
+
+## Objective
+To identify missing values in the dataset and apply appropriate data cleaning techniques to improve data quality.
+
+## Dataset
+- Titanic Dataset
+
+## Tools Used
+- Python
+- Pandas
+- Matplotlib
+- Jupyter Notebook
+
+## Steps Performed
+- Checked missing values using `isnull().sum()`
+- Visualized missing values using bar charts
+- Applied median imputation for numerical features
+- Applied mode imputation for categorical features
+- Verified the dataset after cleaning
+
+## Key Observations
+- Some columns contained missing values, notably the Age column
+- After imputation, the dataset contained no missing values
+- Data consistency improved after cleaning
+
+## Conclusion
+Handling missing values ensured the dataset is complete and ready for further analysis or modeling.
